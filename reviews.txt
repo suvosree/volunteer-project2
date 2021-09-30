@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="reviews.css">
+ 
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+ 
+  
+
+
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a  href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+<a class="active" href="reviews.html">Reviews</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>
+ 
+</div>
+
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+</head>
+
+
+<body>
+
+<div id="logo" class="logo" href=""></div>
+<h1>  Reviews </h1>
+<p> &#x2B50 &#x2B50 &#x2B50 &#x2B50 &#x2B50
+
+
+<br><br> Been coming here about 2 months now, excellent service and clothes always ready on time so far
+<br>- Samuel R
+
+<br><br><br>
+&#x2B50 &#x2B50 &#x2B50 &#x2B50 &#x2B50 <br><br>
+I was able to successfully enjoy my photo shoot because of this dry cleaners. Let's start by saying they are beyond inexpensive & very quick. I dropped my 2 dresses off at 10:30a.m and they were ready by 12p.m. Not to mention it was last minute and the two dresses are delicate ! This was my first time ever going to a dry cleaners and I'm honestly satisfied.
+<br>- Orissa C
+
+<br><br><br>
+
+&#x2B50 &#x2B50 &#x2B50 &#x2B50 &#x2B50 <br> <br>
+
+Best cleaners I have found living in S Florida for the past 10 years. Great hours for drop off before or after work, fair prices, always done before their stated date and they do a great job on dry cleaning
+<br>- Tyler B
+
+
+</p>
+
+
+<button onclick="window.location.href='https://search.google.com/local/reviews?placeid=ChIJy6wZ4Ewb2YgRc4a4gZLA-_M'" class="button1">Read More</button>
+
+
+<button onclick="window.location.href='https://www.yelp.com/writeareview/biz/nmR5akGEmO1T2crIUaUbBQ?return_url=%2Fbiz%2FnmR5akGEmO1T2crIUaUbBQ&source=biz_details_war_button'" class="button2">Write Your Reviews on Yelp</button>
+
+
+<button onclick="window.location.href='https://search.google.com/local/writereview?placeid=ChIJy6wZ4Ewb2YgRc4a4gZLA-_M'" class="button3">Write Your Reviews on Google</button>
+
+
+
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+</body>
+
+
+</html>

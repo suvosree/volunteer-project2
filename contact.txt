@@ -12,6 +12,7 @@
   <a href="services.html">Services</a>
   <a href="gallery.html">Gallery</a>
   <a class="active" href="contact.html">Contact</a>
+<a href="reviews.html">Reviews</a>
 </div>
 
 <div id="main">
@@ -63,7 +64,8 @@ function closeNav() {
 <label for="Email">Email Id</label>
     <input type="text" id="email" name="email" required placeholder="email@domain.com.."> 
 
-
+<label for="Message">Message</label>
+    <input type="text" id="message" name="message" height:200px required placeholder="type your message here.."> 
 
     <input type="button" value="Submit" onclick="sendmail()">
   </form>
@@ -81,14 +83,15 @@ function closeNav() {
 function sendmail(){
     
 var fname = $('#name').val();
-var lname = $('#contact1').val();
+var contact1 = $('#contact1').val();
 var email = $('#email').val();
 var contact = $('#contact').val();
 
+var message1=$('#message1').val();
 
 			
 
-var Body='Name: '+name+'<br>Email: '+email+'<br>Contact: '+contact+' ',''+contact1' ;
+var Body='Name: '+name+'<br>Email: '+email+'<br>Contact: '+contact+ <br>+contact1+'<br> Email: '+email+ '<br>+message: '+message1 ;
 	
 //console.log(name,  email, contact,contact1);
 			Email.send({

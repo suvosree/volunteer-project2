@@ -59,7 +59,7 @@ left: 82%;
 h1{
 
 text-align:center;
-font-size: 20px;
+font-size: 18px;
 
 }
 }
@@ -68,7 +68,7 @@ font-size: 20px;
 </style>
 <body>
 
-<h1>Price Chart For Dry Cleaning</h1>
+<h1>Price Chart<br>(Dry Cleaning)</h1>
 
 <button type="button" onclick=window.location.href="services.html" class="button1"><strong> BACK </strong> </button>
 

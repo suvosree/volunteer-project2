@@ -262,8 +262,8 @@ h1{
    	text-align:center;
    
    	color: #0E760B ;
-   	padding-top: 10px;
-   	font-size: 30px;
+   	padding-top: 25px;
+   	font-size: 23px;
    	font-weight: bold;
 	background-color: green;
             background-repeat: repeat;
@@ -288,7 +288,7 @@ text-transform: uppercase;
    
    color: #0E760B ;
    padding-top: 10px;
-   font-size: 15px;
+   font-size: 12px;
    font-weight: bold;
 background-color: green;
             background-repeat: repeat;
@@ -310,7 +310,7 @@ text-transform: uppercase;
 font-family: 'Roboto', sans-serif;
 
    height:100px;
-width:100px;
+width:150px;
    color: blue;
    padding-top: 15px;
    font-size: 10px;
@@ -321,7 +321,7 @@ width:100px;
  
 text-transform: uppercase;
 position:absolute;
-	top: 50%;
+	top: 55%;
 	left: 5%;
 
 
@@ -346,8 +346,8 @@ width:150px;
  
 text-transform: uppercase;
 position:absolute;
-	top: 50%;
-	left: 52%;
+	top: 55%;
+	left: 55%;
 
 
 }

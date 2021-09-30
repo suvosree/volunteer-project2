@@ -83,6 +83,11 @@ input[type=button]:hover {
 
 }
    
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 
 
 
@@ -168,6 +173,11 @@ background-image: url("./m1.jpg");
  background-color: #cccccc;
  
 }
+
+.col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 
 #logo { 
          

@@ -136,6 +136,7 @@ position:absolute;
 	top: 18%;
 	left: 82%;
 border: 2px solid blue;
+border-style: dotted;
 
 }
 
@@ -233,10 +234,11 @@ font-family: 'Roboto', sans-serif;
    
 position:absolute;
 
-	top: 10%;
+	top: 12%;
 	left: 67%;
 
 border: 2px solid blue;
+border-style: dotted;
 }
 
 
@@ -248,7 +250,7 @@ background: url("./logos.jpg") no-repeat;
          position: absolute;
          
          
-	top: 01%;
+	top: 05%;
 	left: 73%;
 
 }
@@ -262,7 +264,7 @@ h1{
    	text-align:center;
    
    	color: #0E760B ;
-   	padding-top: 92px;
+   	padding-top: 110px;
    	font-size: 23px;
    	font-weight: bold;
 	background-color: green;

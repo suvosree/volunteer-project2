@@ -40,7 +40,7 @@ h1{
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-	position: absoliute;
+	
 	
 text-transform: uppercase;
 letter-spacing: 3px;
@@ -251,7 +251,7 @@ background: url("./logos.jpg") no-repeat;
          
          
 	top: 03%;
-	left: 73%;
+	left: 75%;
 
 }
 
@@ -264,14 +264,14 @@ h1{
    	text-align:center;
    
    	color: #0E760B ;
-   	padding-top: 110px;
-   	font-size: 23px;
+   	padding-top: 120px;
+   	font-size: 25px;
    	font-weight: bold;
 	background-color: green;
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-	position: absoliute;
+	
 	
 text-transform: uppercase;
 
@@ -315,7 +315,7 @@ font-family: 'Roboto', sans-serif;
 width:150px;
    color: black;
    padding-top: 15px;
-   font-size: 10px;
+   font-size: 12px;
   
 
            
@@ -340,7 +340,7 @@ width:150px;
    
    color: black;
    padding-top: 15px;
-   font-size: 10px;
+   font-size: 12px;
    
 
            

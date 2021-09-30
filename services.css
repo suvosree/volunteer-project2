@@ -88,7 +88,7 @@ border: 2px solid green;
 
 
 .button1 {
-  background-image: url("./dry.jpg"); 
+  background-image: url("./dryb.jpg"); 
 width: 250px; 
 height :250px;
   color: black ; 
@@ -250,7 +250,7 @@ h1{
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-	position: absoliute;
+	
 	
 text-transform: uppercase;
 
@@ -283,7 +283,7 @@ border: 2px solid green;
 
 
 .button1 {
-  background-image: url("./dry.jpg"); 
+  background-image: url("./drys.jpg"); 
 width: 150px; 
 height :150px;
   color: black ; 
@@ -305,7 +305,7 @@ left:07%;
 
 
 .button2 {
-  background-image: url("./wf.jpg"); 
+  background-image: url("./wfs.jpg"); 
 width: 150px; 
 height :150px;
   color: black; 

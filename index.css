@@ -215,12 +215,125 @@ font-family: 'Roboto', sans-serif;
    
    color: blue;
    padding-top: 05px;
-   font-size: 18px;
+   font-size: 10px;
    
 position:absolute;
 
 	top: 18%;
+	left: 65%;
+
+
+}
+
+
+#logo { 
+         
+background: url("./logos.jpg") no-repeat; 
+         width: 60px; 
+	height :60px;
+         position: absolute;
+         
+         
+	top: 01%;
 	left: 75%;
+
+}
+
+
+h1{
+
+
+   	font-family: 'Roboto', sans-serif;
+   
+   	text-align:center;
+   
+   	color: #0E760B ;
+   	padding-top: 10px;
+   	font-size: 30px;
+   	font-weight: bold;
+	background-color: green;
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+	position: absoliute;
+	
+text-transform: uppercase;
+
+
+
+}
+
+
+
+#center{
+
+
+   font-family: 'Roboto', sans-serif;
+   
+   text-align:center;
+   
+   color: #0E760B ;
+   padding-top: 10px;
+   font-size: 15px;
+   font-weight: bold;
+background-color: green;
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+text-transform: uppercase;
+
+
+
+
+}
+
+
+
+
+.alignleft{
+
+
+font-family: 'Roboto', sans-serif;
+
+   height:100px;
+width:100px;
+   color: blue;
+   padding-top: 15px;
+   font-size: 10px;
+  
+
+           
+
+ 
+text-transform: uppercase;
+position:absolute;
+	top: 50%;
+	left: 5%;
+
+
+}
+
+
+
+.alignright{
+
+
+font-family: 'Roboto', sans-serif;
+height:100px;
+width:150px;
+   
+   color: blue;
+   padding-top: 15px;
+   font-size: 10px;
+   
+
+           
+
+ 
+text-transform: uppercase;
+position:absolute;
+	top: 50%;
+	left: 52%;
 
 
 }

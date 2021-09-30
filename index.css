@@ -20,7 +20,7 @@ background: url("./logo1.jpg") no-repeat;
          
          
 	top: 01%;
-	left: 82%;
+	left: 85%;
 
 }
 
@@ -82,11 +82,11 @@ font-family: 'Roboto', sans-serif;
 
    height:400px;
 width:400px;
-   color: blue;
+   color: black;
    padding-top: 15px;
    font-size: 20px;
   
-
+border: 2px solid blue;
            
 letter-spacing: 3px;
  
@@ -107,11 +107,11 @@ font-family: 'Roboto', sans-serif;
 height:400px;
 width:400px;
    
-   color: blue;
+   color: black;
    padding-top: 15px;
    font-size: 20px;
    
-
+border: 2px solid blue;
            
 letter-spacing: 3px;
  
@@ -127,7 +127,7 @@ position:absolute;
 font-family: 'Roboto', sans-serif;
 
    
-   color: blue;
+   color: black;
    padding-top: 05px;
    font-size: 18px;
    
@@ -135,7 +135,7 @@ position:absolute;
 
 	top: 18%;
 	left: 82%;
-
+border: 2px solid blue;
 
 }
 
@@ -236,7 +236,7 @@ position:absolute;
 	top: 10%;
 	left: 67%;
 
-
+border: 2px solid blue;
 }
 
 
@@ -262,7 +262,7 @@ h1{
    	text-align:center;
    
    	color: #0E760B ;
-   	padding-top: 88px;
+   	padding-top: 92px;
    	font-size: 23px;
    	font-weight: bold;
 	background-color: green;
@@ -311,11 +311,11 @@ font-family: 'Roboto', sans-serif;
 
    height:150px;
 width:150px;
-   color: blue;
+   color: black;
    padding-top: 15px;
    font-size: 10px;
   
-
+border: 2px solid blue;
            
 
  
@@ -336,11 +336,11 @@ font-family: 'Roboto', sans-serif;
 height:100px;
 width:150px;
    
-   color: blue;
+   color: black;
    padding-top: 15px;
    font-size: 10px;
    
-
+border: 2px solid blue;
            
 
  

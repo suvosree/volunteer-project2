@@ -158,7 +158,53 @@ input[type=button]:hover {
   .sidebar a {font-size: 18px;}
 }
 
+@media screen and (max-width: 601px) {
 
+body {
+ 
+background-image: url("./m1.jpg");
+ background-size: cover;
+ background-repeat: no-repeat center fixed;
+ background-color: #cccccc;
+ 
+}
+
+#logo { 
+         
+background: url("./logos.jpg") no-repeat; 
+         width: 60px; 
+	height :60px;
+         position: absolute;
+         
+         
+	top: 03%;
+	left: 73%;
+
+}
+
+h1{
+
+
+   	font-family: 'Roboto', sans-serif;
+   
+   	text-align:center;
+   
+   	color: #0E760B ;
+   	padding-top: 110px;
+   	font-size: 23px;
+   	font-weight: bold;
+	background-color: green;
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+	position: absoliute;
+	
+text-transform: uppercase;
+
+
+
+}
+}
 
 
 

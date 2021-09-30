@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+font-size:30px;
+}
+
+body{
+background-image: url("./contact.jpg");
+ background-size: cover;
+ background-repeat: no-repeat center fixed;
+ background-color: #cccccc;
+
+}
+
+h1{
+padding:20px;
+font-size:40px;
+text-align:center;
+
+}
+
+
+.button1{
+background-color:grey;
+color:white;
+height: 35px;
+width: 70px;
+position:absolute;
+top: 3%;
+left: 80%;
+}
+
+
+</style>
+<body>
+
+<h1>Price Chart For Wash and Fold</h1>
+
+<button type="button" onclick=window.location.href="services.html" class="button1"><strong> BACK </strong> </button>
+
+<table style="width:100%">
+  <tr>
+    <th>Items</th>
+    
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td> Wash and Fold </td>
+    
+    <td>$1.50 per pound</td>
+  </tr>
+
+
+
+
+</table>
+
+
+</body>
+</html>

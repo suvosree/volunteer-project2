@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+font-size:20px;
+}
+
+body{
+background-image: url("./contact.jpg");
+ background-size: cover;
+ background-repeat: no-repeat center fixed;
+ background-color: #cccccc;
+
+}
+
+h1{
+
+text-align:center;
+
+}
+
+
+.button1{
+background-color:grey;
+color:white;
+height: 35px;
+width: 70px;
+position:absolute;
+top: 3%;
+left: 80%;
+}
+
+
+</style>
+<body>
+
+<h1>Price Chart For Dry Cleaning</h1>
+
+<button type="button" onclick=window.location.href="services.html" class="button1"><strong> BACK </strong> </button>
+
+
+
+
+
+<table style="width:100%">
+  <tr>
+    <th>Items</th>
+    
+    <th>Price 💵 </th>
+  </tr>
+  <tr>
+    <td> <strong> Men Business Shirts &#x1F454 </strong><br>
+Most men business shirts made out of cotton or polyester with plain plastic buttons. These shirts get laundered and machine pressed.</td>
+    
+    <td>$2.25</td>
+  </tr>
+  <tr>
+    <td><strong>Quilts </strong><br> Any size quilts</td>
+    <td>$14.99</td>
+    
+  </tr>
+
+<tr>
+<td><strong> Skirts &#x1F457 </strong><br> Most skirts</td>
+<td> $5.50 </td>
+</tr>
+
+
+<tr>
+<td><strong> Jackets 🧥 </strong> <br> Most jackets </td>
+<td> $5.50</td>
+
+</tr>
+
+<tr>
+<td><strong> Dress Shirts 👗 &#x1F454 </strong> <br> Most dress shirts to be cleaned and hand pressed </td>
+<td> $5.50</td>
+
+</tr>
+
+
+<tr>
+<td><strong> Jumpsuits </strong> <br> Most jumpsuits </td>
+<td> $9.00</td>
+
+</tr>
+
+<tr>
+<td><strong> Dress 👗</strong> <br> Most basic, knee length dresses. </td>
+<td> $5.50</td>
+
+</tr>
+
+<tr>
+<td><strong> Gowns 💃 </strong> <br> Most gowns </td>
+<td> $19.99</td>
+</tr>
+
+<tr>
+<td><strong> Ties 👔 </strong> </td>
+<td> $5.50</td>
+</tr>
+
+<tr>
+<td><strong> Scarf 🧣 </strong> </td>
+<td> $5.50</td>
+</tr>
+
+<tr>
+<td><strong> Take in / Let out Waist </strong> </td>
+<td> $14.00</td>
+</tr>
+
+<tr>
+<td><strong> Any size comforter </strong> <br> Most comforters any size. Excludes down comforters and mattress pads. </td>
+<td> $19.99</td>
+</tr>
+
+<tr>
+<td><strong> 4 pc Sheet set </strong> <br> 1 flat sheet, 1 fitted sheet and 2 pillow cases cleaned and pressed. </td>
+<td> $14.99</td>
+</tr>
+
+<tr>
+<td><strong> Pants 👖 </strong> <br> Most pants </td>
+<td> $5.50</td>
+</tr>
+
+
+<tr>
+<td><strong> T-shirts and polos 👕 🎽 </strong> <br> Most t shirts and polos </td>
+<td> $5.50</td>
+</tr>
+
+<tr>
+<td><strong> 2 PC Suit </strong> <br> Most suits </td>
+<td> $11.00</td>
+</tr>
+
+<tr>
+<td><strong> Blouses </strong> <br> Most blouses </td>
+<td> $5.50</td>
+</tr>
+
+<tr>
+<td><strong> Short All </strong>  </td>
+<td> $5.50</td>
+</tr>
+
+
+<tr>
+<td><strong> Evening dress 👗 👘</strong> <br> Most evening dresses  </td>
+<td> $9.99</td>
+</tr>
+
+<tr>
+<td><strong> Wedding dresses 👰 </strong> <br> Price is determined based on size and work that needs to be done. Please bring it in to the store.  </td>
+<td> --</td>
+</tr>
+
+<tr>
+<td><strong> 3 Pc Suit </strong> <br> Most 3 Pc Suits  </td>
+<td> $16.50 </td>
+</tr>
+
+<tr>
+<td><strong> Hem / Shorten</strong> <br> *Extra charge for lined and/or extra wide hems  </td>
+<td> $14.00 </td>
+</tr>
+
+
+
+
+
+
+</table>
+
+
+</body>
+</html>

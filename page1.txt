@@ -29,7 +29,7 @@ color:white;
 height: 35px;
 width: 70px;
 position:absolute;
-top: 1%;
+top: 3%;
 left: 82%;
 }
 
@@ -51,7 +51,7 @@ height: 35px;
 width: 70px;
 position:absolute;
 top: 1%;
-left: 82%;
+left: 78%;
 
 
 }

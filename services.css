@@ -85,7 +85,18 @@ border: 2px solid green;
 
 }
 
+h2{
+font-family: 'Roboto', sans-serif;
+  color : blue ;
+          
+           
+            font-size: 15px;
+            text-align: center;
+            font-weight: bold;
+            
 
+
+}
 
 .button1 {
   background-image: url("./dryb.jpg"); 
@@ -254,6 +265,19 @@ h1{
 	
 text-transform: uppercase;
 
+
+
+}
+
+h2{
+font-family: 'Roboto', sans-serif;
+  color : blue ;
+          
+           
+            font-size: 12px;
+            text-align: center;
+            font-weight: bold;
+            
 
 
 }

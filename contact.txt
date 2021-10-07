@@ -100,7 +100,7 @@ SecureToken : "28a8d41e-9d4d-4a9e-a08f-2ff5fe8288be",
         Username : "do.not.reply.1104@gmail.com",
         Password : "password1104",
        
-				To: 'suvosree5@gmail.com',
+				To: 'salvadorayanes@gmail.com',
 				From: "do.not.reply.1104@gmail.com",
 				Subject: "New message from website enquiry page submition from "+fname,
 				Body: Body

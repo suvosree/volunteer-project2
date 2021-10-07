@@ -84,10 +84,10 @@ function sendmail(){
     
 var fname = $('#fname').val();
 
-var email = $('#Email').val();
-var contact = $('#Contact').val();
-var contact1 = $('#Contact1').val();
-var message1=$('#Message1').val();
+var Email = $('#Email').val();
+var Contact = $('#Contact').val();
+var Contact1 = $('#Contact1').val();
+var Message1=$('#Message1').val();
 
 			
 

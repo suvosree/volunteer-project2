@@ -67,7 +67,7 @@ function closeNav() {
 <label for="Message">Message</label>
     <input type="text" id="message" name="message" height:200px required placeholder="type your message here.."> 
 
-    <input type="button" value="Submit" onclick="sendmail()">
+    <input type="button" value="Submit" onclick="sendmail();">
   </form>
 </div>
 
@@ -95,6 +95,7 @@ var Body='Name: '+name+'<br>Email: '+email+'<br>Contact: '+contact+ <br>+contact
 	
 //console.log(name,  email, contact,contact1);
 			Email.send({
+SecureToken : "48352342-63cc-4571-b1bc-b0a5e922752b",
         Host : "smtp.gmail.com",
         Username : "do.not.reply.1104@gmail.com",
         Password : "password1104",
@@ -122,7 +123,6 @@ var Body='Name: '+name+'<br>Email: '+email+'<br>Contact: '+contact+ <br>+contact
 
 
 
-</script>
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">

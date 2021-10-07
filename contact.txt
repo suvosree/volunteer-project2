@@ -91,7 +91,7 @@ var message1=$('#message1').val();
 
 			
 
-var Body='Name: '+fname+'<br>Email: '+email+'<br>Contact: '+contact+ '<br>Alternate Contact: '+contact1+  '<br>+Message: '+message1 ;
+var Body='Name: '+fname+'<br>Email: '+email+'<br>Contact: '+contact+ '<br>Alternate Contact: '+contact1+  '<br>Message: '+message1 ;
 	
 //console.log(name,  email, contact,contact1);
 			Email.send({

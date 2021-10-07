@@ -55,17 +55,17 @@ function closeNav() {
 
 
 
-   <label for="Contact">Contact Number</label>
-    <input type="text" id="Contact" name="Contact" required placeholder="Your Contact Number..">
+   <label for="contact">Contact Number</label>
+    <input type="text" id="contact" name="contact" required placeholder="Your Contact Number..">
 
-  <label for="Contact1">Alternate Contact Number</label>
-    <input type="text" id="Contact1" name="Contact1" required placeholder="Your alternate Contact Number..">
+  <label for="contact1">Alternate Contact Number</label>
+    <input type="text" id="contact1" name="contact1" required placeholder="Your alternate Contact Number..">
 
-<label for="Email">Email Id</label>
-    <input type="text" id="Email" name="Email" required placeholder="email@domain.com.."> 
+<label for="email">Email Id</label>
+    <input type="text" id="email" name="email" required placeholder="email@domain.com.."> 
 
-<label for="Message1">Message</label>
-    <input type="text" id="Message1" name="Message1" height:200px required placeholder="Type your message here.."> 
+<label for="message1">Message</label>
+    <input type="text" id="message1" name="message1" height:200px required placeholder="Type your message here.."> 
 
     <input type="button" value="Submit" onclick="sendmail();">
   </form>
@@ -84,14 +84,14 @@ function sendmail(){
     
 var fname = $('#fname').val();
 
-var Email = $('#Email').val();
-var Contact = $('#Contact').val();
-var Contact1 = $('#Contact1').val();
-var Message1=$('#Message1').val();
+var email = $('#email').val();
+var contact = $('#contact').val();
+var contact1 = $('#contact1').val();
+var message1=$('#message1').val();
 
 			
 
-var Body='Name: '+fname+'<br>Email: '+Email+'<br>Contact: '+Contact+ '<br>Alternate Contact: '+Contact1+  '<br>+Message: '+Message1 ;
+var Body='Name: '+fname+'<br>Email: '+email+'<br>Contact: '+contact+ '<br>Alternate Contact: '+contact1+  '<br>+Message: '+message1 ;
 	
 //console.log(name,  email, contact,contact1);
 			Email.send({

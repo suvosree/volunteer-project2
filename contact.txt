@@ -48,7 +48,7 @@ function closeNav() {
 <div>
   <form action="javascript:sendmail()"  method="post">
 
-    <label for="name"> Name</label>
+    <label for="fname"> Name</label>
     <input type="text" id="fname" name="fname" required placeholder="Your name..">
 
     
@@ -56,16 +56,16 @@ function closeNav() {
 
 
    <label for="Contact">Contact Number</label>
-    <input type="text" id="contact" name="Contact" required placeholder="Your Contact Number..">
+    <input type="text" id="Contact" name="Contact" required placeholder="Your Contact Number..">
 
   <label for="Contact1">Alternate Contact Number</label>
-    <input type="text" id="contact" name="Contact" required placeholder="Your alternate Contact Number..">
+    <input type="text" id="Contact1" name="Contact1" required placeholder="Your alternate Contact Number..">
 
 <label for="Email">Email Id</label>
-    <input type="text" id="email" name="email" required placeholder="email@domain.com.."> 
+    <input type="text" id="Email" name="Email" required placeholder="email@domain.com.."> 
 
-<label for="Message">Message</label>
-    <input type="text" id="message" name="message" height:200px required placeholder="type your message here.."> 
+<label for="Message1">Message</label>
+    <input type="text" id="Message1" name="Message1" height:200px required placeholder="Type your message here.."> 
 
     <input type="button" value="Submit" onclick="sendmail();">
   </form>
@@ -82,27 +82,27 @@ function closeNav() {
 <script>  
 function sendmail(){
     
-var fname = $('#name').val();
-var contact1 = $('#contact1').val();
-var email = $('#email').val();
-var contact = $('#contact').val();
+var fname = $('#fname').val();
 
-var message1=$('#message1').val();
+var email = $('#Email').val();
+var contact = $('#Contact').val();
+var contact1 = $('#Contact1').val();
+var message1=$('#Message1').val();
 
 			
 
-var Body='Name: '+name+'<br>Email: '+email+'<br>Contact: '+contact+ <br>+contact1+'<br> Email: '+email+ '<br>+message: '+message1 ;
+var Body='Name: '+fname+'<br>Email: '+Email+'<br>Contact: '+Contact+ '<br>Alternate Contact: '+Contact1+  '<br>+Message: '+Message1 ;
 	
 //console.log(name,  email, contact,contact1);
 			Email.send({
-SecureToken : "48352342-63cc-4571-b1bc-b0a5e922752b",
+SecureToken : "28a8d41e-9d4d-4a9e-a08f-2ff5fe8288be",
         Host : "smtp.gmail.com",
         Username : "do.not.reply.1104@gmail.com",
         Password : "password1104",
        
 				To: 'suvosree5@gmail.com',
 				From: "do.not.reply.1104@gmail.com",
-				Subject: "New message from website enquiry page submition from "+name,
+				Subject: "New message from website enquiry page submition from "+fname,
 				Body: Body
 			}).then(
 				message =>{
